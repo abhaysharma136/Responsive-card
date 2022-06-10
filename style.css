@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #0a0c1b;
+}
+
+section{
+    background-color: #1c1938;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.office-img{
+    background: url("https://img4.looper.com/img/gallery/the-office-reunion-what-every-cast-member-has-to-say-about-it/intro-1582644556.jpg")  #a85cdd;
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+.card-content{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.insight{
+    color:#a85cdd
+}
+.card-count{
+    margin: 0;
+    font-size: 1.3rem;
+    color: red;
+}
+.card-count + p{
+margin-top: 5px;
+font-size: 0.8rem;
+}
+@media (min-width:500px){
+    .card-social-media{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .card-content{
+        text-align: left;
+    }
+}
